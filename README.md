@@ -1,6 +1,8 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://aayushi-portfolio.vercel.app/" target="_blank">aayushi-portfolio.vercel.app</a>
+  <a href="https://portfolio-560i0t8m5-aayushi-prajapati-s-projects.vercel.app/" target="_blank">
+    aayushi.vercel.app
+  </a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/portfolio-demo.png" />
@@ -27,46 +29,49 @@
 
 ## TL;DR
 
-You can fork this repo and customize it for your own use. If you do, consider giving credit by linking back to [Aayushi Prajapati](https://github.com/aayushi-1610). Thanks!
+Fork this repo to make your own version. Please credit [Aayushi Prajapati](https://github.com/aayushi-1610) if you're inspired. 🙂
 
 ---
 
 ## 👩‍💻 Built With
 
-This is my personal portfolio site: [aayushi-portfolio.vercel.app](https://aayushi-portfolio.vercel.app)  
-It showcases my featured projects, achievements, resume, and technical skills.
+A fully responsive personal portfolio to showcase projects, resume, and skills.
+
+🌐 **Live Website**:  
+➡️ [https://portfolio-560i0t8m5-aayushi-prajapati-s-projects.vercel.app/](https://portfolio-560i0t8m5-aayushi-prajapati-s-projects.vercel.app/)
 
 **Tech Stack:**
 
 - React.js
 - Tailwind CSS
-- Node.js
-- Express.js
-- MongoDB (for dynamic projects)
-- Vercel (Deployment)
-- VsCode
+- Node.js + Express.js (optional backend integration)
+- Vercel (Hosting)
 
 ---
 
 ## ✨ Features
 
-- 📖 **Multi-Page Layout**  
-- 🎨 **Custom design with TailwindCSS for a modern, clean aesthetic**  
-- 📱 **Fully Responsive Design**  
-- 💼 **Projects, Resume, Contact & About Sections**  
-- ☁️ **Deployed on Vercel**
+- 🎨 Custom Tailwind CSS design
+- 🧩 Component-based structure (React)
+- 💼 Dedicated Projects, About, Resume, and Contact sections
+- 📱 Mobile-first & fully responsive
+- ☁️ Deployed on Vercel
 
 ---
 
-## 📁 Getting Started
+## ⚙️ Getting Started
 
-You’ll need `node.js` and `git` installed globally to use this project.
+You’ll need `node.js` and `git` installed globally.
 
-### 🛠 Installation & Setup
-
-1. **Clone the repo**
+### 🔧 Setup Instructions
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/aayushi-1610/Portfolio.git
 cd Portfolio
 
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
