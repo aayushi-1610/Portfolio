@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+// Your actual image imports
 import pillDispenser from "../../Assets/Projects/pillDispenser.png";
 import sareeSite from "../../Assets/Projects/sareeSite.png";
 import webcycle from "../../Assets/Projects/webcycle.png";
@@ -28,7 +29,7 @@ function Projects() {
               title="Smart Pill Dispenser with Voice Assistant"
               description="Built a smart pill dispenser using Arduino UNO, IR Sensor, RTC, Servo, LCD, and Python-based voice assistant integrated with GPT-2 for offline medical queries and pill tracking."
               ghLink="https://github.com/aayushi-1610/SmartPillDispenser"
-              // demoLink="" // Add a demo link if available
+              // demoLink=""
             />
           </Col>
 
@@ -40,7 +41,7 @@ function Projects() {
               title="Kashvi Creation – Saree E-Commerce"
               description="MERN-based saree shopping platform with admin/user login, CRUD for products, secure JWT auth, Cloudinary media uploads, and responsive React UI. Hosted on Vercel."
               ghLink="https://github.com/aayushi-1610/Saree-Ecommerce"
-              // demoLink="https://kashvi.vercel.app" // Add actual deployed URL if you have
+              // demoLink="https://kashvi.vercel.app"
             />
           </Col>
 
@@ -52,7 +53,7 @@ function Projects() {
               title="WebCycle – Eco-Sustainability Platform"
               description="React and Node-based eco platform promoting sustainable living. Includes blogs, donations, quizzes, carbon calculators, and green resource maps with responsive UI."
               ghLink="https://github.com/aayushi-1610/WebCycle"
-              // demoLink="" // Add a demo link if available
+              // demoLink=""
             />
           </Col>
 
@@ -64,7 +65,7 @@ function Projects() {
               title="Line Follower Robot"
               description="Arduino-powered robot that follows black lines using IR sensors. Controlled speed using PWM logic to smoothly navigate curves and intersections."
               ghLink="https://github.com/aayushi-1610/LineFollowerBot"
-              // demoLink="" // Add a demo link or video if available
+              // demoLink=""
             />
           </Col>
         </Row>
